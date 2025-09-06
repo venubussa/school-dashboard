@@ -6,7 +6,7 @@ import os
 st.set_page_config(page_title="School Dashboard - DuckDB", layout="wide")
 st.title("📊 School Dashboard - DuckDB Version")
 
-csv_path = r"C:\Users\Venu\Pictures\school-bi\data\students_large.csv"
+csv_path = r"C:\Users\Venu\Pictures\school-bi\data\students.csv"
 
 if os.path.exists(csv_path):
     # --- Connect to DuckDB ---
